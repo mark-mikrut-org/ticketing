@@ -5,6 +5,7 @@ const AUTH_PORT = 3000;
 
 const start = async () => {
     try {
+        console.log('Starting up....');
         // check env
         if (!process.env.JWT_KEY) {
             throw new Error('JWT_KEY must be defined');
