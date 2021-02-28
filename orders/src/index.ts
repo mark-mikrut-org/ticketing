@@ -20,7 +20,7 @@ const cleanShutdown = () => {
 
 const start = async () => {
     try {
-        console.log('Starting...');
+        console.log('Starting....');
         // check env
         if (!process.env.JWT_KEY) {
             throw new Error('JWT_KEY must be defined');
